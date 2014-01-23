@@ -1,0 +1,14 @@
+{
+  "name": "jquery",
+  "_cacheHeaders": {
+    "ETag": "\"d753a101d522e8bc6fed7ef69a54e993\"",
+    "Content-Length": "129886",
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "_release": "e-tag:d753a101d",
+  "main": "index",
+  "_source": "https://github.com/jquery/jquery",
+  "_target": "*",
+  "_originalSource": "https://github.com/jquery/jquery",
+  "_direct": true
+}

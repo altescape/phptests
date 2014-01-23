@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<title>jQuery</title>
+	<meta name="viewport" content="width=device-width"/>
+	<link rel="stylesheet" href="style.css"/>
+	<link rel="stylesheet" href="core.css"/>
+</head>
+<body>
+
+	<h1>New website coming soon</h1>
+	<h2>Work completed so far...</h2>
+	<div class="charts-wrapper">
+	<div class="chart-wrapper first">
+		<span class="chart one" data-percent="100">
+			<span class="percentage one"></span>
+			<span class="label one">Content</span>
+		</span>
+	</div>
+	<div class="chart-wrapper second">
+		<span class="chart two" data-percent="88">
+			<span class="percentage two"></span>
+			<span class="label two">Design</span>
+		</span>
+	</div>
+	<div class="chart-wrapper third">
+		<span class="chart three" data-percent="22">
+			<span class="percentage three"></span>
+			<span class="label three">Development</span>
+		</span>
+	</div>
+	</div>
+
+	<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+	<script src="../dist/jquery.easypiechart.min.js"></script>
+	<script>
+	$(function() {
+		$('.chart.one').easyPieChart({
+			easing: 'easeOutBounce',
+			scaleColor:	'#D0D0D0',
+			barColor:	'#888888',
+			size:		100,
+			lineWidth:	10,
+			lineCap:	'square',
+			animate:  	2000, 
+			onStep: function(from, to, percent) {
+				$(this.el).find('.percentage.one').text(Math.round(percent));
+			}
+		});
+		var chart1 = window.chart1 = $('.chart1').data('easyPieChart');
+		$('.chart.two').easyPieChart({
+			easing: 'easeOutBounce',
+			scaleColor:	'#D0D0D0',
+			barColor:	'#AAAAAA',
+			size:	200,
+			lineWidth:	10,
+			lineCap:	'square',
+			animate:  	3500,
+			onStep: function(from, to, percent) {
+				$(this.el).find('.percentage.two').text(Math.round(percent));
+			}
+		});
+		var chart2 = window.chart2 = $('.chart2').data('easyPieChart');
+		$('.chart.three').easyPieChart({
+			easing: 'easeOutBounce',
+			scaleColor:	'#D0D0D0',
+			barColor:	'#CCCCCC',
+			size:	300,
+			lineWidth:	10,
+			lineCap:	'square',
+			animate:  	7000,
+			onStep: function(from, to, percent) {
+				$(this.el).find('.percentage.three').text(Math.round(percent));
+			}
+		});
+		var chart3 = window.chart3 = $('.chart3').data('easyPieChart');
+	});
+	</script>
+</body>
+</html>

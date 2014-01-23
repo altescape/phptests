@@ -1,0 +1,2304 @@
+
+
+
+<!DOCTYPE html>
+<html>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# githubog: http://ogp.me/ns/fb/githubog#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>jquery/jquery · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
+    <link rel="logo" type="image/svg" href="https://github-media-downloads.s3.amazonaws.com/github-logo.svg" />
+    <meta property="og:image" content="https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png">
+    <meta name="hostname" content="github-fe130-cp1-prd.iad.github.net">
+    <meta name="ruby" content="ruby 1.9.3p194-tcs-github-tcmalloc (e1c0c3f392) [x86_64-linux]">
+    <link rel="assets" href="https://github.global.ssl.fastly.net/">
+    <link rel="conduit-xhr" href="https://ghconduit.com:25035/">
+    <link rel="xhr-socket" href="/_sockets" />
+    
+
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="selected-link" value="repo_source" data-pjax-transient />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="519893D1:643C:4AB38A:52B4CF07" name="octolytics-dimension-request_id" />
+    
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="AIekrbmENrGQKVosttiQHd2eAHKvQ4vdeOx/q5P3PO8=" name="csrf-token" />
+
+    <link href="https://github.global.ssl.fastly.net/assets/github-8f6ca9b17ae3eba1e30276eef0a16282cb651c78.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://github.global.ssl.fastly.net/assets/github2-efb30206b3c48724763c8fce889ca6dab1b487db.css" media="all" rel="stylesheet" type="text/css" />
+    
+
+    
+
+      <script src="https://github.global.ssl.fastly.net/assets/frameworks-29a3fb0547e33bd8d4530bbad9bae3ef00d83293.js" type="text/javascript"></script>
+      <script src="https://github.global.ssl.fastly.net/assets/github-0b6bf4a8bb8bc8246eb6d07db6a63cde130f5001.js" type="text/javascript"></script>
+      
+      <meta http-equiv="x-pjax-version" content="25e9435426189c5ffea9ed5e7a16f621">
+
+        <meta property="og:title" content="jquery"/>
+  <meta property="og:type" content="githubog:gitrepository"/>
+  <meta property="og:url" content="https://github.com/jquery/jquery"/>
+  <meta property="og:image" content="https://github.global.ssl.fastly.net/images/gravatars/gravatar-user-420.png"/>
+  <meta property="og:site_name" content="GitHub"/>
+  <meta property="og:description" content="jquery - jQuery JavaScript Library"/>
+
+  <meta name="description" content="jquery - jQuery JavaScript Library" />
+
+  <meta content="70142" name="octolytics-dimension-user_id" /><meta content="jquery" name="octolytics-dimension-user_login" /><meta content="167174" name="octolytics-dimension-repository_id" /><meta content="jquery/jquery" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="167174" name="octolytics-dimension-repository_network_root_id" /><meta content="jquery/jquery" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/jquery/jquery/commits/master.atom" rel="alternate" title="Recent Commits to jquery:master" type="application/atom+xml" />
+
+  </head>
+
+
+  <body class="logged_out  env-production  vis-public">
+    <div class="wrapper">
+      
+      
+      
+      
+
+
+      
+      <div class="header header-logged-out">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions">
+        <a class="button primary" href="/join">Sign up</a>
+      <a class="button signin" href="/login?return_to=%2Fjquery%2Fjquery">Sign in</a>
+    </div>
+
+    <div class="command-bar js-command-bar  in-repository">
+
+      <ul class="top-nav">
+          <li class="explore"><a href="/explore">Explore</a></li>
+        <li class="features"><a href="/features">Features</a></li>
+          <li class="enterprise"><a href="https://enterprise.github.com/">Enterprise</a></li>
+          <li class="blog"><a href="/blog">Blog</a></li>
+      </ul>
+        <form accept-charset="UTF-8" action="/search" class="command-bar-form" id="top_search_form" method="get">
+
+<input type="text" data-hotkey="/ s" name="q" id="js-command-bar-field" placeholder="Search or type a command" tabindex="1" autocapitalize="off"
+    
+    
+      data-repo="jquery/jquery"
+      data-branch="master"
+      data-sha="da70b40aebc83122bd2026fc21e877d876bdc9c0"
+  >
+
+    <input type="hidden" name="nwo" value="jquery/jquery" />
+
+    <div class="select-menu js-menu-container js-select-menu search-context-select-menu">
+      <span class="minibutton select-menu-button js-menu-target">
+        <span class="js-select-button">This repository</span>
+      </span>
+
+      <div class="select-menu-modal-holder js-menu-content js-navigation-container">
+        <div class="select-menu-modal">
+
+          <div class="select-menu-item js-navigation-item js-this-repository-navigation-item selected">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" class="js-search-this-repository" name="search_target" value="repository" checked="checked" />
+            <div class="select-menu-item-text js-select-button-text">This repository</div>
+          </div> <!-- /.select-menu-item -->
+
+          <div class="select-menu-item js-navigation-item js-all-repositories-navigation-item">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" name="search_target" value="global" />
+            <div class="select-menu-item-text js-select-button-text">All repositories</div>
+          </div> <!-- /.select-menu-item -->
+
+        </div>
+      </div>
+    </div>
+
+  <span class="octicon help tooltipped downwards" title="Show command bar help">
+    <span class="octicon octicon-question"></span>
+  </span>
+
+
+  <input type="hidden" name="ref" value="cmdform">
+
+</form>
+    </div>
+
+  </div>
+</div>
+
+
+      
+
+
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+        
+
+<ul class="pagehead-actions">
+
+
+  <li>
+    <a href="/login?return_to=%2Fjquery%2Fjquery"
+    class="minibutton with-count js-toggler-target star-button tooltipped upwards"
+    title="You must be signed in to use this feature" rel="nofollow">
+    <span class="octicon octicon-star"></span>Star
+  </a>
+
+    <a class="social-count js-social-count" href="/jquery/jquery/stargazers">
+      27,188
+    </a>
+
+  </li>
+
+    <li>
+      <a href="/login?return_to=%2Fjquery%2Fjquery"
+        class="minibutton with-count js-toggler-target fork-button tooltipped upwards"
+        title="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-git-branch"></span>Fork
+      </a>
+      <a href="/jquery/jquery/network" class="social-count">
+        5,834
+      </a>
+    </li>
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="repo-label"><span>public</span></span>
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author">
+            <a href="/jquery" class="url fn" itemprop="url" rel="author"><span itemprop="title">jquery</span></a>
+          </span>
+          <span class="repohead-name-divider">/</span>
+          <strong><a href="/jquery/jquery" class="js-current-repository js-repo-home-link">jquery</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="Octocat-spinner-32" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      
+
+      <div class="repository-with-sidebar repo-container with-full-navigation ">
+
+        <div class="repository-sidebar">
+            
+
+<div class="sunken-menu vertical-right repo-nav js-repo-nav js-repository-container-pjax js-octicon-loaders">
+  <div class="sunken-menu-contents">
+    <ul class="sunken-menu-group">
+      <li class="tooltipped leftwards" title="Code">
+        <a href="/jquery/jquery" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-gotokey="c" data-pjax="true" data-selected-links="repo_source repo_downloads repo_commits repo_tags repo_branches /jquery/jquery">
+          <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+
+      <li class="tooltipped leftwards" title="Pull Requests">
+        <a href="/jquery/jquery/pulls" aria-label="Pull Requests" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-gotokey="p" data-selected-links="repo_pulls /jquery/jquery/pulls">
+            <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
+            <span class='counter'>11</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+
+    </ul>
+    <div class="sunken-menu-separator"></div>
+    <ul class="sunken-menu-group">
+
+      <li class="tooltipped leftwards" title="Pulse">
+        <a href="/jquery/jquery/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="pulse /jquery/jquery/pulse">
+          <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped leftwards" title="Graphs">
+        <a href="/jquery/jquery/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="repo_graphs repo_contributors /jquery/jquery/graphs">
+          <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped leftwards" title="Network">
+        <a href="/jquery/jquery/network" aria-label="Network" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-selected-links="repo_network /jquery/jquery/network">
+          <span class="octicon octicon-git-branch"></span> <span class="full-word">Network</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+    </ul>
+
+
+  </div>
+</div>
+
+            <div class="only-with-full-nav">
+              
+
+  
+
+<div class="clone-url open"
+  data-protocol-type="http"
+  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
+  <h3><strong>HTTPS</strong> clone URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/jquery/jquery.git" readonly="readonly">
+
+    <span class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/jquery/jquery.git" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+  
+
+<div class="clone-url "
+  data-protocol-type="subversion"
+  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
+  <h3><strong>Subversion</strong> checkout URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/jquery/jquery" readonly="readonly">
+
+    <span class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/jquery/jquery" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+
+<p class="clone-options">You can clone with
+      <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a>,
+      or <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
+  <span class="octicon help tooltipped upwards" title="Get help on which URL is right for you.">
+    <a href="https://help.github.com/articles/which-remote-url-should-i-use">
+    <span class="octicon octicon-question"></span>
+    </a>
+  </span>
+</p>
+
+
+
+              <a href="/jquery/jquery/archive/master.zip"
+                 class="minibutton sidebar-button"
+                 title="Download this repository as a zip file"
+                 rel="nofollow">
+                <span class="octicon octicon-cloud-download"></span>
+                Download ZIP
+              </a>
+            </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+          
+
+<span id="js-show-full-navigation"></span>
+
+<div class="repository-meta js-details-container  " data-url="/jquery/jquery/graphs/ping" data-data-url="/jquery/jquery/graphs/ping-data">
+    <div class="repository-description js-details-show">
+      <p>jQuery JavaScript Library</p>
+    </div>
+
+    <div class="repository-website js-details-show">
+      <p><a href="http://jquery.com/" rel="nofollow">http://jquery.com/</a></p>
+    </div>
+
+
+</div>
+
+<div class="capped-box overall-summary ">
+
+  <div class="stats-switcher-viewport js-stats-switcher-viewport">
+
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax href="/jquery/jquery/commits/master">
+            <span class="num">
+              <span class="octicon octicon-history"></span>
+              5,468
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax href="/jquery/jquery/branches">
+          <span class="num">
+            <span class="octicon octicon-git-branch"></span>
+            7
+          </span>
+          branches
+        </a>
+      </li>
+
+      <li>
+        <a data-pjax href="/jquery/jquery/releases">
+          <span class="num">
+            <span class="octicon octicon-tag"></span>
+            105
+          </span>
+          releases
+        </a>
+      </li>
+
+      <li>
+
+  <a href="/jquery/jquery/graphs/contributors">
+    <span class="num">
+      <span class="octicon octicon-organization"></span>
+      184
+    </span>
+    contributors
+  </a>
+      </li>
+    </ul>
+
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="/jquery/jquery/search?l=javascript">
+                <span class="color-block language-color" style="background-color:#f15501;"></span>
+                <span class="lang">JavaScript</span>
+                <span class="percent">98.8%</span>
+              </a>
+          </li>
+          <li>
+              <span class="other">
+                <span data-lang="Other" class="color-block language-color"></span>
+                <span class="lang">Other</span>
+                <span class="percent">1.2%</span>
+              </span>
+          </li>
+        </ol>
+      </div>
+  </div>
+
+</div>
+
+  <a href="#"
+     class="repository-lang-stats-graph js-toggle-lang-stats tooltipped downwards"
+     title="Show language statistics"
+     style="background-color:#ccc">
+  <span class="language-color" style="width:98.8%; background-color:#f15501;" itemprop="keywords">JavaScript</span><span class="language-color" style="width:1.2%; background-color:#ccc;" itemprop="keywords">Other</span>
+  </a>
+
+
+
+<div class="file-navigation in-mid-page">
+    <a href="/jquery/jquery/compare" aria-label="Compare, review, create a pull request" class="minibutton compact primary tooltipped downwards" title="Compare &amp; review" data-pjax>
+      <span class="octicon octicon-git-compare"></span>
+    </a>
+
+  
+
+<div class="select-menu js-menu-container js-select-menu" >
+  <span class="minibutton select-menu-button js-menu-target" data-hotkey="w"
+    data-master-branch="master"
+    data-ref="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-remove-close js-menu-close"></span>
+      </div> <!-- /.select-menu-header -->
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div><!-- /.select-menu-tabs -->
+      </div><!-- /.select-menu-filters -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.8-stable"
+                 data-name="1.8-stable"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.8-stable">1.8-stable</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.9-stable"
+                 data-name="1.9-stable"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.9-stable">1.9-stable</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.x-master"
+                 data-name="1.x-master"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.x-master">1.x-master</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/%2313388"
+                 data-name="#13388"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="#13388">#13388</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/ajax-script-2.0"
+                 data-name="ajax-script-2.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="ajax-script-2.0">ajax-script-2.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/ajax-unit"
+                 data-name="ajax-unit"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="ajax-unit">ajax-unit</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item selected">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/master"
+                 data-name="master"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="master">master</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/2.1.0-beta3"
+                 data-name="2.1.0-beta3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="2.1.0-beta3">2.1.0-beta3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/2.1.0-beta2"
+                 data-name="2.1.0-beta2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="2.1.0-beta2">2.1.0-beta2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/2.1.0-beta1"
+                 data-name="2.1.0-beta1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="2.1.0-beta1">2.1.0-beta1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/2.0.3"
+                 data-name="2.0.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="2.0.3">2.0.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/2.0.2"
+                 data-name="2.0.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="2.0.2">2.0.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/2.0.1"
+                 data-name="2.0.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="2.0.1">2.0.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/2.0.0-beta3"
+                 data-name="2.0.0-beta3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="2.0.0-beta3">2.0.0-beta3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/2.0.0b2"
+                 data-name="2.0.0b2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="2.0.0b2">2.0.0b2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/2.0.0b1"
+                 data-name="2.0.0b1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="2.0.0b1">2.0.0b1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/2.0.0"
+                 data-name="2.0.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="2.0.0">2.0.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.11.0-beta3"
+                 data-name="1.11.0-beta3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.11.0-beta3">1.11.0-beta3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.11.0-beta2"
+                 data-name="1.11.0-beta2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.11.0-beta2">1.11.0-beta2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.11.0-beta1"
+                 data-name="1.11.0-beta1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.11.0-beta1">1.11.0-beta1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.10.2"
+                 data-name="1.10.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.10.2">1.10.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.10.1"
+                 data-name="1.10.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.10.1">1.10.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.10.0-beta1"
+                 data-name="1.10.0-beta1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.10.0-beta1">1.10.0-beta1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.10.0"
+                 data-name="1.10.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.10.0">1.10.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.9.1"
+                 data-name="1.9.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.9.1">1.9.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.9.0rc1"
+                 data-name="1.9.0rc1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.9.0rc1">1.9.0rc1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.9.0b1"
+                 data-name="1.9.0b1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.9.0b1">1.9.0b1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.9.0"
+                 data-name="1.9.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.9.0">1.9.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.8rc1"
+                 data-name="1.8rc1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.8rc1">1.8rc1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.8b2"
+                 data-name="1.8b2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.8b2">1.8b2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.8b1"
+                 data-name="1.8b1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.8b1">1.8b1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.8.3+1"
+                 data-name="1.8.3+1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.8.3+1">1.8.3+1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.8.3"
+                 data-name="1.8.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.8.3">1.8.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.8.2"
+                 data-name="1.8.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.8.2">1.8.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.8.1"
+                 data-name="1.8.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.8.1">1.8.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.8.0"
+                 data-name="1.8.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.8.0">1.8.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.7rc2"
+                 data-name="1.7rc2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.7rc2">1.7rc2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.7rc1"
+                 data-name="1.7rc1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.7rc1">1.7rc1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.7b2"
+                 data-name="1.7b2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.7b2">1.7b2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.7b1"
+                 data-name="1.7b1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.7b1">1.7b1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.7.2rc1"
+                 data-name="1.7.2rc1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.7.2rc1">1.7.2rc1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.7.2b1"
+                 data-name="1.7.2b1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.7.2b1">1.7.2b1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.7.2"
+                 data-name="1.7.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.7.2">1.7.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.7.1rc1"
+                 data-name="1.7.1rc1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.7.1rc1">1.7.1rc1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.7.1"
+                 data-name="1.7.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.7.1">1.7.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.7"
+                 data-name="1.7"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.7">1.7</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.6rc1"
+                 data-name="1.6rc1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.6rc1">1.6rc1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.6b1"
+                 data-name="1.6b1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.6b1">1.6b1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.6.4rc1"
+                 data-name="1.6.4rc1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.6.4rc1">1.6.4rc1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.6.4"
+                 data-name="1.6.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.6.4">1.6.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.6.3rc1"
+                 data-name="1.6.3rc1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.6.3rc1">1.6.3rc1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.6.3"
+                 data-name="1.6.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.6.3">1.6.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.6.2rc1"
+                 data-name="1.6.2rc1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.6.2rc1">1.6.2rc1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.6.2"
+                 data-name="1.6.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.6.2">1.6.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.6.1rc1"
+                 data-name="1.6.1rc1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.6.1rc1">1.6.1rc1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.6.1"
+                 data-name="1.6.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.6.1">1.6.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.6"
+                 data-name="1.6"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.6">1.6</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.5rc1"
+                 data-name="1.5rc1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.5rc1">1.5rc1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.5b1"
+                 data-name="1.5b1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.5b1">1.5b1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.5.2rc1"
+                 data-name="1.5.2rc1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.5.2rc1">1.5.2rc1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.5.2"
+                 data-name="1.5.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.5.2">1.5.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.5.1rc1"
+                 data-name="1.5.1rc1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.5.1rc1">1.5.1rc1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.5.1"
+                 data-name="1.5.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.5.1">1.5.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.5"
+                 data-name="1.5"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.5">1.5</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.4rc1"
+                 data-name="1.4rc1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.4rc1">1.4rc1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.4a2"
+                 data-name="1.4a2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.4a2">1.4a2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.4a1"
+                 data-name="1.4a1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.4a1">1.4a1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.4.4rc3"
+                 data-name="1.4.4rc3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.4.4rc3">1.4.4rc3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.4.4rc2"
+                 data-name="1.4.4rc2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.4.4rc2">1.4.4rc2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.4.4rc1"
+                 data-name="1.4.4rc1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.4.4rc1">1.4.4rc1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.4.4"
+                 data-name="1.4.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.4.4">1.4.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.4.3rc2"
+                 data-name="1.4.3rc2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.4.3rc2">1.4.3rc2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.4.3rc1"
+                 data-name="1.4.3rc1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.4.3rc1">1.4.3rc1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.4.3"
+                 data-name="1.4.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.4.3">1.4.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.4.2"
+                 data-name="1.4.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.4.2">1.4.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.4.1"
+                 data-name="1.4.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.4.1">1.4.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.4"
+                 data-name="1.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.4">1.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.3rc1"
+                 data-name="1.3rc1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.3rc1">1.3rc1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.3b2"
+                 data-name="1.3b2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.3b2">1.3b2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.3b1"
+                 data-name="1.3b1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.3b1">1.3b1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.3.2"
+                 data-name="1.3.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.3.2">1.3.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.3.1rc1"
+                 data-name="1.3.1rc1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.3.1rc1">1.3.1rc1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.3.1"
+                 data-name="1.3.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.3.1">1.3.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.3"
+                 data-name="1.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.3">1.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.2.6"
+                 data-name="1.2.6"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.2.6">1.2.6</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.2.5"
+                 data-name="1.2.5"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.2.5">1.2.5</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.2.4b"
+                 data-name="1.2.4b"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.2.4b">1.2.4b</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.2.4a"
+                 data-name="1.2.4a"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.2.4a">1.2.4a</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.2.4"
+                 data-name="1.2.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.2.4">1.2.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.2.3b"
+                 data-name="1.2.3b"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.2.3b">1.2.3b</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.2.3a"
+                 data-name="1.2.3a"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.2.3a">1.2.3a</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.2.3"
+                 data-name="1.2.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.2.3">1.2.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.2.2b2"
+                 data-name="1.2.2b2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.2.2b2">1.2.2b2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.2.2b"
+                 data-name="1.2.2b"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.2.2b">1.2.2b</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.2.2"
+                 data-name="1.2.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.2.2">1.2.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.2.1"
+                 data-name="1.2.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.2.1">1.2.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.2"
+                 data-name="1.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.2">1.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.1b"
+                 data-name="1.1b"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.1b">1.1b</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.1a"
+                 data-name="1.1a"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.1a">1.1a</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.1.4"
+                 data-name="1.1.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.1.4">1.1.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.1.3a"
+                 data-name="1.1.3a"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.1.3a">1.1.3a</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.1.3.1"
+                 data-name="1.1.3.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.1.3.1">1.1.3.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.1.3"
+                 data-name="1.1.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.1.3">1.1.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.1.2"
+                 data-name="1.1.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.1.2">1.1.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.1.1"
+                 data-name="1.1.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.1.1">1.1.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.1"
+                 data-name="1.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.1">1.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.0a"
+                 data-name="1.0a"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.0a">1.0a</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.0.4"
+                 data-name="1.0.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.0.4">1.0.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.0.3"
+                 data-name="1.0.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.0.3">1.0.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.0.2"
+                 data-name="1.0.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.0.2">1.0.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.0.1"
+                 data-name="1.0.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.0.1">1.0.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jquery/jquery/tree/1.0"
+                 data-name="1.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="1.0">1.0</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+    </div> <!-- /.select-menu-modal -->
+  </div> <!-- /.select-menu-modal-holder -->
+</div> <!-- /.select-menu -->
+
+
+  <div class="breadcrumb"><span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/jquery/jquery" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">jquery</span></a></span></span><span class="separator"> / </span><form action="/login?return_to=%2Fjquery%2Fjquery" class="js-new-blob-form tooltipped rightwards new-file-link" method="post" title="Sign in to make or propose changes"><span aria-label="Sign in to make or propose changes" class="js-new-blob-submit octicon octicon-file-add" data-test-id="create-new-git-file" role="button"></span></form></div>
+</div>
+
+
+
+<a href="/jquery/jquery/find/master"
+  data-hotkey="t" class="js-show-file-finder" style="display:none" data-pjax>Show File Finder</a>
+<div class="bubble files-bubble">
+
+
+  <div class="commit commit-tease js-details-container" >
+    <p class="commit-title ">
+        <a href="/jquery/jquery/commit/74a48958bd1f4b00a8a12bb0052f10fd13e85a1a" class="message" data-pjax="true" title="Release script: minor formatting issue.">Release script: minor formatting issue.</a>
+        
+    </p>
+    <div class="commit-meta">
+      <span class="js-zeroclipboard zeroclipboard-link" data-clipboard-text="74a48958bd1f4b00a8a12bb0052f10fd13e85a1a" data-copied-hint="copied!" title="Copy SHA"><span class="octicon octicon-clippy"></span></span>
+      <a href="/jquery/jquery/commit/74a48958bd1f4b00a8a12bb0052f10fd13e85a1a" class="sha-block" data-pjax>latest commit <span class="sha">74a48958bd</span></a>
+
+      <div class="authorship">
+        <img class="gravatar" height="20" src="https://2.gravatar.com/avatar/6b57220ae48e1ac5d02227bdada8a4d6?d=https%3A%2F%2Fidenticons.github.com%2F56e67f4a89bd82c06a9f07ad35c07262.png&amp;r=x&amp;s=140" width="20" />
+        <span class="author-name"><a href="/timmywil" data-skip-pjax="true" rel="contributor">timmywil</a></span>
+        authored <time class="js-relative-date updated" datetime="2013-12-20T14:37:38-08:00" title="2013-12-20 14:37:38">December 20, 2013</time>
+
+      </div>
+    </div>
+  </div>
+
+  <table class="files" data-pjax>
+
+    
+<tbody class=""
+  data-url="/jquery/jquery/file-list/master">
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/tree/master/build" class="js-directory-link" id="b0da275520918e23dd615e2a747528f1-7357768409171f8cd61331bd2b275733e0350787" title="build">build</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/commit/74a48958bd1f4b00a8a12bb0052f10fd13e85a1a" class="message" data-pjax="true" title="Release script: minor formatting issue.">Release script: minor formatting issue.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-12-20T14:37:38-08:00" title="2013-12-20 14:37:38">December 20, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/tree/master/speed" class="js-directory-link" id="ce4ef3ec98443ed10da505114b58f153-d58596b2eb30e936b8b21abc5f16c4cdbbc0e904" title="speed">speed</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/commit/79992d752393d80822a4f8be2b7bec3ecdd60f6a" class="message" data-pjax="true" title="Edited comments and minor adjustments. Fixes #13553. Closes gh-1195.">Edited comments and minor adjustments. Fixes #13553. Closes</a> <a href="https://github.com/jquery/jquery/pull/1195" class="issue-link" title="changed comments about some still needed in 2.0 oldIE workarounds; refs tickets #5866, #9217, #13553">gh-1195</a><a href="/jquery/jquery/commit/79992d752393d80822a4f8be2b7bec3ecdd60f6a" class="message" data-pjax="true" title="Edited comments and minor adjustments. Fixes #13553. Closes gh-1195.">.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-03-12T18:06:25-07:00" title="2013-03-12 18:06:25">March 12, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/tree/master/src" class="js-directory-link" id="25d902c24283ab8cfbac54dfa101ad31-1d84d726c1879763e1b9c32f0b84e66432fd42f1" title="src">src</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/commit/29c8003347e8768e26077c6d040203d662009220" class="message" data-pjax="true" title="Selector: update Sizzle
+
+Fix #14584">Selector: update Sizzle</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-12-20T13:46:30-08:00" title="2013-12-20 13:46:30">December 20, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/tree/master/test" class="js-directory-link" id="098f6bcd4621d373cade4e832627b4f6-8674f6f2936aec376a7d7bfe65042e232289a523" title="test">test</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/commit/fd0bce07584b73fb755574c4d462e0b175d1c6b6" class="message" data-pjax="true" title="Ajax: don’t test jQuery.ajax() on beforeunload in Chrome 31
+
+Chrome 31 doesn&#39;t fire Ajax requests in beforeunload event handler.
+There is no way for us to workaround it and it&#39;s been fixed in Chrome 32
+so let&#39;s just blacklist Chrome 31 as long as it&#39;s in TestSwarm.
+See https://code.google.com/p/chromium/issues/detail?id=321241">Ajax: don’t test jQuery.ajax() on beforeunload in Chrome 31</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-12-18T06:10:42-08:00" title="2013-12-18 06:10:42">December 18, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/blob/master/.bowerrc" class="js-directory-link" id="adba2f4daaaceb7e9889870260a0012e-baa91a3e3f6ceca5fdcadca90306c6ea33929a1f" title=".bowerrc">.bowerrc</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/commit/0f2f6847ffb58c72e756c067785e57dfdf85bec0" class="message" data-pjax="true" title="Explicitly set bower folder location">Explicitly set bower folder location</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-08-27T11:22:28-07:00" title="2013-08-27 11:22:28">August 27, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/blob/master/.editorconfig" class="js-directory-link" id="1e70daafb475c0ce3fef7d2728279182-d06e31850afcd496c0dfdd315dba53b1a6f7eac0" title=".editorconfig">.editorconfig</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/commit/949dfe52bc228efe2d0cb2d696b822ef2a5723d1" class="message" data-pjax="true" title="Update .editorconfig with new properties. Close gh-915.
+
+See http://editorconfig.org">Update .editorconfig with new properties. Close</a> <a href="https://github.com/jquery/jquery/pull/915" class="issue-link" title="Update .editorconfig with new properties">gh-915</a><a href="/jquery/jquery/commit/949dfe52bc228efe2d0cb2d696b822ef2a5723d1" class="message" data-pjax="true" title="Update .editorconfig with new properties. Close gh-915.
+
+See http://editorconfig.org">.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2012-09-09T18:19:27-07:00" title="2012-09-09 18:19:27">September 09, 2012</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/blob/master/.gitattributes" class="js-directory-link" id="fc723d30b02a4cca7a534518111c1a66-d6dc47053cb213c362d36a69dcc2d66e80a5d1cf" title=".gitattributes">.gitattributes</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/commit/866ba43d0a8cd9807a39483df48d9366558cb6dd" class="message" data-pjax="true" title="Mark *.jar files as binary.">Mark *.jar files as binary.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2010-11-11T21:41:44-08:00" title="2010-11-11 21:41:44">November 11, 2010</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/blob/master/.gitignore" class="js-directory-link" id="a084b794bc0759e7a6b77810e01874f2-7f4060a29128e45bf6bc6fddd9d531044ecf1e04" title=".gitignore">.gitignore</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/commit/15d245ff573cbfb2537d93b8b15ac58e825aa4d9" class="message" data-pjax="true" title="Build: Use absolute paths in .gitignore and .npmignore.
+
+.gitignore/.npmignore treat all its paths as relative to *every*
+directory in the repository. In most cases that’s not what’s desired.
+
+(cherry-picked from 2d7315051193212fca6e7d64a3de87d96977c418)">Build: Use absolute paths in .gitignore and .npmignore.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-12-18T06:17:19-08:00" title="2013-12-18 06:17:19">December 18, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/blob/master/.jscs.json" class="js-directory-link" id="ed6a67a86c4c5aa1dd5fcb0acb6f5c67-f2d8a1fb7a24c6877479d1bb1905ef3b8637d280" title=".jscs.json">.jscs.json</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/commit/c2e0dbdaa59dee7201ce53f9993e8477cf68818f" class="message" data-pjax="true" title="Manage bower dependencies with grunt-bowercopy
+
+Tracked bower dependencies are located at &quot;src/sizzle&quot; and &quot;test/libs&quot;.
+The source-destination mapping is in the Gruntfile.
+
+When updating a bower dependency, update the version in bower.json, run
+`grunt bower`, and then commit the result. When adding a dependency,
+update the bowercopy task accordingly.
+
+Fixes #14615.
+Closes gh-1452.
+
+Conflicts:
+	bower.json
+	test/index.html">Manage bower dependencies with grunt-bowercopy</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-12-06T13:14:27-08:00" title="2013-12-06 13:14:27">December 06, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/blob/master/.jshintignore" class="js-directory-link" id="41546aea3e8547821bb47ed9a922004f-71bddb82c2e3482433ecd2fc2e948cf2b04d117c" title=".jshintignore">.jshintignore</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/commit/c2e0dbdaa59dee7201ce53f9993e8477cf68818f" class="message" data-pjax="true" title="Manage bower dependencies with grunt-bowercopy
+
+Tracked bower dependencies are located at &quot;src/sizzle&quot; and &quot;test/libs&quot;.
+The source-destination mapping is in the Gruntfile.
+
+When updating a bower dependency, update the version in bower.json, run
+`grunt bower`, and then commit the result. When adding a dependency,
+update the bowercopy task accordingly.
+
+Fixes #14615.
+Closes gh-1452.
+
+Conflicts:
+	bower.json
+	test/index.html">Manage bower dependencies with grunt-bowercopy</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-12-06T13:14:27-08:00" title="2013-12-06 13:14:27">December 06, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/blob/master/.jshintrc" class="js-directory-link" id="4d5aa81bf4f18104bb6ea53a8b5d1f43-13a9e01b91f713fef5a21833a9a236ac3f189ec4" title=".jshintrc">.jshintrc</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/commit/d2435ead36de361cd6094731f57de076320ec45d" class="message" data-pjax="true" title="Update jshintrc to conform to new style guide. Conform to onevar and unu...
+
+...sed in tests. Fixes #13755.
+
+Conflicts:
+	src/.jshintrc
+	src/data.js
+	test/unit/attributes.js
+	test/unit/core.js
+	test/unit/data.js
+	test/unit/event.js
+	test/unit/manipulation.js
+	test/unit/queue.js
+	test/unit/traversing.js
+	test/unit/wrap.js">Update jshintrc to conform to new style guide. Conform to onevar and …</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-04-09T09:21:54-07:00" title="2013-04-09 09:21:54">April 09, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/blob/master/.mailmap" class="js-directory-link" id="c9d540715cff3469b65ddd01f614848b-63d042714b030862048f34c3f529ffbb74ff302a" title=".mailmap">.mailmap</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/commit/43757500674102ec14c103ea25f84857bdd88d7e" class="message" data-pjax="true" title="Updated author information.">Updated author information.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-10-04T08:47:42-07:00" title="2013-10-04 08:47:42">October 04, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/blob/master/.npmignore" class="js-directory-link" id="0fd4ef892d9d4990033701887c2f9bcc-595cb6ac9d8327595a018845d33c6af362633444" title=".npmignore">.npmignore</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/commit/15d245ff573cbfb2537d93b8b15ac58e825aa4d9" class="message" data-pjax="true" title="Build: Use absolute paths in .gitignore and .npmignore.
+
+.gitignore/.npmignore treat all its paths as relative to *every*
+directory in the repository. In most cases that’s not what’s desired.
+
+(cherry-picked from 2d7315051193212fca6e7d64a3de87d96977c418)">Build: Use absolute paths in .gitignore and .npmignore.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-12-18T06:17:19-08:00" title="2013-12-18 06:17:19">December 18, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/blob/master/.travis.yml" class="js-directory-link" id="354f30a63fb0907d4ad57269548329e3-35048b6bd96a67e49c7a21299fcd79d89a85d8cd" title=".travis.yml">.travis.yml</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/commit/a9f59462941e33f5a7b3d2c14969236375bcc6d2" class="message" data-pjax="true" title="Use grunt and bower packages as local dependencies. Close gh-1433.">Use grunt and bower packages as local dependencies. Close</a> <a href="https://github.com/jquery/jquery/pull/1433" class="issue-link" title="Use grunt and bower packages as local dependencies">gh-1433</a><a href="/jquery/jquery/commit/a9f59462941e33f5a7b3d2c14969236375bcc6d2" class="message" data-pjax="true" title="Use grunt and bower packages as local dependencies. Close gh-1433.">.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-11-14T07:18:12-08:00" title="2013-11-14 07:18:12">November 14, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/blob/master/AUTHORS.txt" class="js-directory-link" id="81cc714230c9d42f9427ca91ac4d0921-43c34d6458e4fe9b7f007d4be23da1f5329cc7cb" title="AUTHORS.txt">AUTHORS.txt</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/commit/ed0f0e42dfd533f920305d58454d2f0a72c1be28" class="message" data-pjax="true" title="Update AUTHORS.txt using git log --format=&quot;%aN &lt;%aE&gt;&quot;">Update AUTHORS.txt using git log --format="%aN &lt;%aE&gt;"</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-12-20T14:25:03-08:00" title="2013-12-20 14:25:03">December 20, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/blob/master/CONTRIBUTING.md" class="js-directory-link" id="6a3371457528722a734f3c51d9238c13-ba20ac703087814b63c043f1425c0adb0aaf10e3" title="CONTRIBUTING.md">CONTRIBUTING.md</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/commit/846771081c038f523612087d76deb3c853e252fd" class="message" data-pjax="true" title="CONTRIBUTING: Fixed link to style guide">CONTRIBUTING: Fixed link to style guide</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-12-17T06:18:54-08:00" title="2013-12-17 06:18:54">December 17, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/blob/master/Gruntfile.js" class="js-directory-link" id="35b4a816e0441e6a375cd925af50752c-1739ed5fb78ce43cead752081a3797895452e038" title="Gruntfile.js">Gruntfile.js</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/commit/7deee6af72bfcf328fa09a28a1e68159cc58513f" class="message" data-pjax="true" title="Build: Upgrade to grunt-contrib-jshint 0.7.1 and squash subtasks
+
+grunt-contrib-jshint 0.7.1 allows the jshintrc option to be set to true to have
+it read the appropriate config file based on the file being checked. The only
+place where we can’t use it is the check for dist/jquery.js that has the onevar
+option removed.
+
+Fixes #14504">Build: Upgrade to grunt-contrib-jshint 0.7.1 and squash subtasks</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-12-18T06:24:29-08:00" title="2013-12-18 06:24:29">December 18, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/blob/master/MIT-LICENSE.txt" class="js-directory-link" id="a8e1605fa09f89712d2d16ea86d7c6d3-957f26d3e3b5ae3922f2f220263c51ab220088d4" title="MIT-LICENSE.txt">MIT-LICENSE.txt</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/commit/53021dad7f6c7f5c5a1c0d7b0493dd2ceee31166" class="message" data-pjax="true" title="Update copyright year">Update copyright year</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-03-19T12:35:59-07:00" title="2013-03-19 12:35:59">March 19, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/blob/master/README.md" class="js-directory-link" id="04c6e90faac2675aa89e2176d2eec7d8-ebc9de2626067fc40437228512354e2506fd52c4" title="README.md">README.md</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/commit/7e8a91c205723f11cd00c8834f348a649ab15926" class="message" data-pjax="true" title="Build: add build option for setting the AMD name.
+
+Fixes #14016.">Build: add build option for setting the AMD name.</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-12-19T12:31:36-08:00" title="2013-12-19 12:31:36">December 19, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/blob/master/bower.json" class="js-directory-link" id="0a08a7565aba4405282251491979bb6b-94e92c9ad50e3fe107bbe6d4ebedf78b783091f4" title="bower.json">bower.json</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/commit/bae117445b915d0a2a5c5a78ad9e3c8cd014dc9e" class="message" data-pjax="true" title="Remove hyphen from pre versions
+
+- It is intentionally invalid semver as pre versions should never be released
+- UI and Mobile already do this">Remove hyphen from pre versions</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-12-20T14:25:03-08:00" title="2013-12-20 14:25:03">December 20, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/blob/master/package.json" class="js-directory-link" id="b9cfc7f2cdf78a7f4b91a753d10865a2-8c0b1a9ae80fb43f60d778ee4817f56a2ee02a89" title="package.json">package.json</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/jquery/jquery/commit/f3062f96e04cd0ecfdbdcccfcd2733b06beca131" class="message" data-pjax="true" title="Release script: jquery-release integration">Release script: jquery-release integration</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-12-20T14:25:03-08:00" title="2013-12-20 14:25:03">December 20, 2013</time></span></td>
+    </tr>
+</tbody>
+
+  </table>
+</div>
+
+  <div id="readme" class="clearfix announce instapaper_body md">
+    <span class="name">
+      <span class="octicon octicon-book"></span>
+      README.md
+    </span>
+
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1>
+<a name="jquery---new-wave-javascript" class="anchor" href="#jquery---new-wave-javascript"><span class="octicon octicon-link"></span></a><a href="http://jquery.com/">jQuery</a> - New Wave JavaScript</h1>
+
+<h2>
+<a name="contribution-guides" class="anchor" href="#contribution-guides"><span class="octicon octicon-link"></span></a>Contribution Guides</h2>
+
+<p>In the spirit of open source software development, jQuery always encourages community code contribution. To help you get started and before you jump into writing code, be sure to read these important contribution guidelines thoroughly:</p>
+
+<ol>
+<li><a href="http://docs.jquery.com/Getting_Involved">Getting Involved</a></li>
+<li><a href="http://docs.jquery.com/JQuery_Core_Style_Guidelines">Core Style Guide</a></li>
+<li><a href="http://docs.jquery.com/Tips_for_jQuery_Bug_Patching">Tips For Bug Patching</a></li>
+</ol><h2>
+<a name="what-you-need-to-build-your-own-jquery" class="anchor" href="#what-you-need-to-build-your-own-jquery"><span class="octicon octicon-link"></span></a>What you need to build your own jQuery</h2>
+
+<p>In order to build jQuery, you need to have Node.js/npm latest and git 1.7 or later.
+(Earlier versions might work OK, but are not tested.)</p>
+
+<p>For Windows you have to download and install <a href="http://git-scm.com/downloads">git</a> and <a href="http://nodejs.org/download/">Node.js</a>.</p>
+
+<p>Mac OS users should install <a href="http://mxcl.github.com/homebrew/">Homebrew</a>. Once Homebrew is installed, run <code>brew install git</code> to install git,
+and <code>brew install node</code> to install Node.js.</p>
+
+<p>Linux/BSD users should use their appropriate package managers to install git and Node.js, or build from source
+if you swing that way. Easy-peasy.</p>
+
+<h2>
+<a name="how-to-build-your-own-jquery" class="anchor" href="#how-to-build-your-own-jquery"><span class="octicon octicon-link"></span></a>How to build your own jQuery</h2>
+
+<p>Clone a copy of the main jQuery git repo by running:</p>
+
+<div class="highlight highlight-bash"><pre>git clone git://github.com/jquery/jquery.git
+</pre></div>
+
+<p>Enter the jquery directory and run the build script:</p>
+
+<div class="highlight highlight-bash"><pre><span class="nb">cd </span>jquery <span class="o">&amp;&amp;</span> npm run-script build
+</pre></div>
+
+<p>The built version of jQuery will be put in the <code>dist/</code> subdirectory, along with the minified copy and associated map file.</p>
+
+<p>If you want create custom build or help with jQuery development, it would be better to install <a href="https://github.com/gruntjs/grunt-cli">grunt command line interface</a> as a global package:</p>
+
+<pre><code>npm install -g grunt-cli
+</code></pre>
+
+<p>Make sure you have <code>grunt</code> installed by testing:</p>
+
+<pre><code>grunt -v
+</code></pre>
+
+<p>Now by running <code>grunt</code> command, in the jquery directory, you could build full version of jQuery, just like with <code>npm run-script build</code> command:</p>
+
+<pre><code>grunt
+</code></pre>
+
+<p>There are many other tasks available for jQuery Core:</p>
+
+<pre><code>grunt -help
+</code></pre>
+
+<h3>
+<a name="modules" class="anchor" href="#modules"><span class="octicon octicon-link"></span></a>Modules</h3>
+
+<p>Special builds can be created that exclude subsets of jQuery functionality.
+This allows for smaller custom builds when the builder is certain that those parts of jQuery are not being used.
+For example, an app that only used JSONP for <code>$.ajax()</code> and did not need to calculate offsets or positions of elements could exclude the offset and ajax/xhr modules.</p>
+
+<p>Any module may be excluded except for <code>core</code>, and <code>selector</code>. To exclude a module, pass its path relative to the <code>src</code> folder (without the <code>.js</code> extension).</p>
+
+<p>Some example modules that can be excluded are:</p>
+
+<ul>
+<li>
+<strong>ajax</strong>: All AJAX functionality: <code>$.ajax()</code>, <code>$.get()</code>, <code>$.post()</code>, <code>$.ajaxSetup()</code>, <code>.load()</code>, transports, and ajax event shorthands such as <code>.ajaxStart()</code>.</li>
+<li>
+<strong>ajax/xhr</strong>: The XMLHTTPRequest AJAX transport only.</li>
+<li>
+<strong>ajax/script</strong>: The <code>&lt;script&gt;</code> AJAX transport only; used to retrieve scripts.</li>
+<li>
+<strong>ajax/jsonp</strong>: The JSONP AJAX transport only; depends on the ajax/script transport.</li>
+<li>
+<strong>css</strong>: The <code>.css()</code> method plus non-animated <code>.show()</code>, <code>.hide()</code> and <code>.toggle()</code>. Also removes <strong>all</strong> modules depending on css (including <strong>effects</strong>, <strong>dimensions</strong>, and <strong>offset</strong>).</li>
+<li>
+<strong>deprecated</strong>: Methods documented as deprecated but not yet removed; currently only <code>.andSelf()</code>.</li>
+<li>
+<strong>dimensions</strong>: The <code>.width()</code> and <code>.height()</code> methods, including <code>inner-</code> and <code>outer-</code> variations.</li>
+<li>
+<strong>effects</strong>: The <code>.animate()</code> method and its shorthands such as <code>.slideUp()</code> or <code>.hide("slow")</code>.</li>
+<li>
+<strong>event</strong>: The <code>.on()</code> and <code>.off()</code> methods and all event functionality. Also removes <code>event/alias</code>.</li>
+<li>
+<strong>event/alias</strong>: All event attaching/triggering shorthands like <code>.click()</code> or <code>.mouseover()</code>.</li>
+<li>
+<strong>offset</strong>: The <code>.offset()</code>, <code>.position()</code>, <code>.offsetParent()</code>, <code>.scrollLeft()</code>, and <code>.scrollTop()</code> methods.</li>
+<li>
+<strong>wrap</strong>: The <code>.wrap()</code>, <code>.wrapAll()</code>, <code>.wrapInner()</code>, and <code>.unwrap()</code> methods.</li>
+<li>
+<strong>core/ready</strong>: Exclude the ready module if you place your scripts at the end of the body. Any ready callbacks bound with <code>jQuery()</code> will simply be called immediately. However, <code>jQuery(document).ready()</code> will not be a function and <code>.on("ready", ...)</code> or similar will not be triggered.</li>
+<li>
+<strong>deferred</strong>: Exclude jQuery.Deferred. This also removes jQuery.Callbacks. <em>Note</em> that modules that depend on jQuery.Deferred(AJAX, effects, core/ready) will not be removed and will still expect jQuery.Deferred to be there. Include your own jQuery.Deferred implementation or exclude those modules as well (<code>grunt custom:-deferred,-ajax,-effects,-core/ready</code>).</li>
+<li>
+<strong>exports/global</strong>: Exclude the attachment of global jQuery variables ($ and jQuery) to the window.</li>
+<li>
+<strong>exports/amd</strong>: Exclude the AMD definition.</li>
+</ul><p>As a special case, you may also replace Sizzle by using a special flag <code>grunt custom:-sizzle</code>.</p>
+
+<ul>
+<li>
+<strong>sizzle</strong>: The Sizzle selector engine. When this module is excluded, it is replaced by a rudimentary selector engine based on the browser's <code>querySelectorAll</code> method that does not support jQuery selector extensions or enhanced semantics. See the selector-native.js file for details.</li>
+</ul><p><em>Note</em>: Excluding Sizzle will also exclude all jQuery selector extensions (such as <code>effects/animatedSelector</code> and <code>css/hiddenVisibleSelectors</code>).</p>
+
+<p>The build process shows a message for each dependent module it excludes or includes.</p>
+
+<h5>
+<a name="amd-name" class="anchor" href="#amd-name"><span class="octicon octicon-link"></span></a>AMD name</h5>
+
+<p>As an option, you can set the module name for jQuery's AMD definition. By default, it is set to "jquery", which plays nicely with plugins and third-party libraries, but there may be cases where you'd like to change this. Simply set the <code>"amd"</code> option:</p>
+
+<div class="highlight highlight-bash"><pre>grunt custom --amd<span class="o">=</span><span class="s2">"custom-name"</span>
+</pre></div>
+
+<p>Or, to define anonymously, set the name to an empty string.</p>
+
+<div class="highlight highlight-bash"><pre>grunt custom --amd<span class="o">=</span><span class="s2">""</span>
+</pre></div>
+
+<h4>
+<a name="custom-build-examples" class="anchor" href="#custom-build-examples"><span class="octicon octicon-link"></span></a>Custom Build Examples</h4>
+
+<p>To create a custom build of the latest stable version, first check out the version:</p>
+
+<div class="highlight highlight-bash"><pre>git pull<span class="p">;</span> git checkout <span class="k">$(</span>git describe --abbrev<span class="o">=</span>0 --tags<span class="k">)</span>
+</pre></div>
+
+<p>Then, make sure all Node dependencies are installed:</p>
+
+<div class="highlight highlight-bash"><pre>npm install
+</pre></div>
+
+<p>Create the custom build using the <code>grunt custom</code> option, listing the modules to be excluded.</p>
+
+<p>Exclude all <strong>ajax</strong> functionality:</p>
+
+<div class="highlight highlight-bash"><pre>grunt custom:-ajax
+</pre></div>
+
+<p>Excluding <strong>css</strong> removes modules depending on CSS: <strong>effects</strong>, <strong>offset</strong>, <strong>dimensions</strong>.</p>
+
+<div class="highlight highlight-bash"><pre>grunt custom:-css
+</pre></div>
+
+<p>Exclude a bunch of modules:</p>
+
+<div class="highlight highlight-bash"><pre>grunt custom:-ajax,-css,-deprecated,-dimensions,-effects,-event/alias,-offset,-wrap
+</pre></div>
+
+<p>For questions or requests regarding custom builds, please start a thread on the <a href="https://forum.jquery.com/developing-jquery-core">Developing jQuery Core</a> section of the forum. Due to the combinatorics and custom nature of these builds, they are not regularly tested in jQuery's unit test process. The non-Sizzle selector engine currently does not pass unit tests because it is missing too much essential functionality.</p>
+
+<h2>
+<a name="running-the-unit-tests" class="anchor" href="#running-the-unit-tests"><span class="octicon octicon-link"></span></a>Running the Unit Tests</h2>
+
+<p>Make sure you have the necessary dependencies:</p>
+
+<div class="highlight highlight-bash"><pre>npm install
+</pre></div>
+
+<p>Start <code>grunt watch</code> or <code>npm start</code> to auto-build jQuery as you work:</p>
+
+<div class="highlight highlight-bash"><pre><span class="nb">cd </span>jquery <span class="o">&amp;&amp;</span> grunt watch
+</pre></div>
+
+<p>Run the unit tests with a local server that supports PHP. Ensure that you run the site from the root directory, not the "test" directory. No database is required. Pre-configured php local servers are available for Windows and Mac. Here are some options:</p>
+
+<ul>
+<li>Windows: <a href="http://www.wampserver.com/en/">WAMP download</a>
+</li>
+<li>Mac: <a href="http://www.mamp.info/en/index.html">MAMP download</a>
+</li>
+<li>Linux: <a href="https://www.linux.com/learn/tutorials/288158-easy-lamp-server-installation">Setting up LAMP</a>
+</li>
+<li><a href="http://code.google.com/p/mongoose/">Mongoose (most platforms)</a></li>
+</ul><h2>
+<a name="building-to-a-different-directory" class="anchor" href="#building-to-a-different-directory"><span class="octicon octicon-link"></span></a>Building to a different directory</h2>
+
+<p>To copy the built jQuery files from <code>/dist</code> to another directory:</p>
+
+<div class="highlight highlight-bash"><pre>grunt <span class="o">&amp;&amp;</span> grunt dist:/path/to/special/location/
+</pre></div>
+
+<p>With this example, the output files would be:</p>
+
+<div class="highlight highlight-bash"><pre>/path/to/special/location/jquery.js
+/path/to/special/location/jquery.min.js
+</pre></div>
+
+<p>To add a permanent copy destination, create a file in <code>dist/</code> called ".destination.json". Inside the file, paste and customize the following:</p>
+
+<div class="highlight highlight-json"><pre>
+<span class="p">{</span>
+  <span class="nt">"/Absolute/path/to/other/destination"</span><span class="p">:</span> <span class="kc">true</span>
+<span class="p">}</span>
+</pre></div>
+
+<p>Additionally, both methods can be combined.</p>
+
+<h2>
+<a name="essential-git" class="anchor" href="#essential-git"><span class="octicon octicon-link"></span></a>Essential Git</h2>
+
+<p>As the source code is handled by the version control system Git, it's useful to know some features used.</p>
+
+<h3>
+<a name="cleaning" class="anchor" href="#cleaning"><span class="octicon octicon-link"></span></a>cleaning</h3>
+
+<p>If you want to purge your working directory back to the status of upstream, following commands can be used (remember everything you've worked on is gone after these):</p>
+
+<div class="highlight highlight-bash"><pre>git reset --hard upstream/master
+git clean -fdx
+</pre></div>
+
+<h3>
+<a name="rebasing" class="anchor" href="#rebasing"><span class="octicon octicon-link"></span></a>rebasing</h3>
+
+<p>For feature/topic branches, you should always use the <code>--rebase</code> flag to <code>git pull</code>, or if you are usually handling many temporary "to be in a github pull request" branches, run following to automate this:</p>
+
+<div class="highlight highlight-bash"><pre>git config branch.autosetuprebase <span class="nb">local</span>
+</pre></div>
+
+<p>(see <code>man git-config</code> for more information)</p>
+
+<h3>
+<a name="handling-merge-conflicts" class="anchor" href="#handling-merge-conflicts"><span class="octicon octicon-link"></span></a>handling merge conflicts</h3>
+
+<p>If you're getting merge conflicts when merging, instead of editing the conflicted files manually, you can use the feature
+<code>git mergetool</code>. Even though the default tool <code>xxdiff</code> looks awful/old, it's rather useful.</p>
+
+<p>Following are some commands that can be used there:</p>
+
+<ul>
+<li>
+<code>Ctrl + Alt + M</code> - automerge as much as possible</li>
+<li>
+<code>b</code> - jump to next merge conflict</li>
+<li>
+<code>s</code> - change the order of the conflicted lines</li>
+<li>
+<code>u</code> - undo a merge</li>
+<li>
+<code>left mouse button</code> - mark a block to be the winner</li>
+<li>
+<code>middle mouse button</code> - mark a line to be the winner</li>
+<li>
+<code>Ctrl + S</code> - save</li>
+<li>
+<code>Ctrl + Q</code> - quit</li>
+</ul><h2>
+<a name="qunit-reference" class="anchor" href="#qunit-reference"><span class="octicon octicon-link"></span></a><a href="http://docs.jquery.com/QUnit">QUnit</a> Reference</h2>
+
+<h3>
+<a name="test-methods" class="anchor" href="#test-methods"><span class="octicon octicon-link"></span></a>Test methods</h3>
+
+<div class="highlight highlight-js"><pre><span class="nx">expect</span><span class="p">(</span> <span class="nx">numAssertions</span> <span class="p">);</span>
+<span class="nx">stop</span><span class="p">();</span>
+<span class="nx">start</span><span class="p">();</span>
+</pre></div>
+
+<p>note: QUnit's eventual addition of an argument to stop/start is ignored in this test suite so that start and stop can be passed as callbacks without worrying about their parameters</p>
+
+<h3>
+<a name="test-assertions" class="anchor" href="#test-assertions"><span class="octicon octicon-link"></span></a>Test assertions</h3>
+
+<div class="highlight highlight-js"><pre><span class="nx">ok</span><span class="p">(</span> <span class="nx">value</span><span class="p">,</span> <span class="p">[</span><span class="nx">message</span><span class="p">]</span> <span class="p">);</span>
+<span class="nx">equal</span><span class="p">(</span> <span class="nx">actual</span><span class="p">,</span> <span class="nx">expected</span><span class="p">,</span> <span class="p">[</span><span class="nx">message</span><span class="p">]</span> <span class="p">);</span>
+<span class="nx">notEqual</span><span class="p">(</span> <span class="nx">actual</span><span class="p">,</span> <span class="nx">expected</span><span class="p">,</span> <span class="p">[</span><span class="nx">message</span><span class="p">]</span> <span class="p">);</span>
+<span class="nx">deepEqual</span><span class="p">(</span> <span class="nx">actual</span><span class="p">,</span> <span class="nx">expected</span><span class="p">,</span> <span class="p">[</span><span class="nx">message</span><span class="p">]</span> <span class="p">);</span>
+<span class="nx">notDeepEqual</span><span class="p">(</span> <span class="nx">actual</span><span class="p">,</span> <span class="nx">expected</span><span class="p">,</span> <span class="p">[</span><span class="nx">message</span><span class="p">]</span> <span class="p">);</span>
+<span class="nx">strictEqual</span><span class="p">(</span> <span class="nx">actual</span><span class="p">,</span> <span class="nx">expected</span><span class="p">,</span> <span class="p">[</span><span class="nx">message</span><span class="p">]</span> <span class="p">);</span>
+<span class="nx">notStrictEqual</span><span class="p">(</span> <span class="nx">actual</span><span class="p">,</span> <span class="nx">expected</span><span class="p">,</span> <span class="p">[</span><span class="nx">message</span><span class="p">]</span> <span class="p">);</span>
+<span class="nx">raises</span><span class="p">(</span> <span class="nx">block</span><span class="p">,</span> <span class="p">[</span><span class="nx">expected</span><span class="p">],</span> <span class="p">[</span><span class="nx">message</span><span class="p">]</span> <span class="p">);</span>
+</pre></div>
+
+<h2>
+<a name="test-suite-convenience-methods-reference-see-testdatatestinitjs" class="anchor" href="#test-suite-convenience-methods-reference-see-testdatatestinitjs"><span class="octicon octicon-link"></span></a>Test Suite Convenience Methods Reference (See <a href="https://github.com/jquery/jquery/blob/master/test/data/testinit.js">test/data/testinit.js</a>)</h2>
+
+<h3>
+<a name="returns-an-array-of-elements-with-the-given-ids" class="anchor" href="#returns-an-array-of-elements-with-the-given-ids"><span class="octicon octicon-link"></span></a>Returns an array of elements with the given IDs</h3>
+
+<div class="highlight highlight-js"><pre><span class="nx">q</span><span class="p">(</span> <span class="p">...</span> <span class="p">);</span>
+</pre></div>
+
+<p>Example:</p>
+
+<div class="highlight highlight-js"><pre><span class="nx">q</span><span class="p">(</span><span class="s2">"main"</span><span class="p">,</span> <span class="s2">"foo"</span><span class="p">,</span> <span class="s2">"bar"</span><span class="p">);</span>
+
+<span class="o">=&gt;</span> <span class="p">[</span> <span class="nx">div</span><span class="err">#</span><span class="nx">main</span><span class="p">,</span> <span class="nx">span</span><span class="err">#</span><span class="nx">foo</span><span class="p">,</span> <span class="nx">input</span><span class="err">#</span><span class="nx">bar</span> <span class="p">]</span>
+</pre></div>
+
+<h3>
+<a name="asserts-that-a-selection-matches-the-given-ids" class="anchor" href="#asserts-that-a-selection-matches-the-given-ids"><span class="octicon octicon-link"></span></a>Asserts that a selection matches the given IDs</h3>
+
+<div class="highlight highlight-js"><pre><span class="nx">t</span><span class="p">(</span> <span class="nx">testName</span><span class="p">,</span> <span class="nx">selector</span><span class="p">,</span> <span class="p">[</span> <span class="s2">"array"</span><span class="p">,</span> <span class="s2">"of"</span><span class="p">,</span> <span class="s2">"ids"</span> <span class="p">]</span> <span class="p">);</span>
+</pre></div>
+
+<p>Example:</p>
+
+<div class="highlight highlight-js"><pre><span class="nx">t</span><span class="p">(</span><span class="s2">"Check for something"</span><span class="p">,</span> <span class="s2">"//[a]"</span><span class="p">,</span> <span class="p">[</span><span class="s2">"foo"</span><span class="p">,</span> <span class="s2">"baar"</span><span class="p">]);</span>
+</pre></div>
+
+<h3>
+<a name="fires-a-native-dom-event-without-going-through-jquery" class="anchor" href="#fires-a-native-dom-event-without-going-through-jquery"><span class="octicon octicon-link"></span></a>Fires a native DOM event without going through jQuery</h3>
+
+<div class="highlight highlight-js"><pre><span class="nx">fireNative</span><span class="p">(</span> <span class="nx">node</span><span class="p">,</span> <span class="nx">eventType</span> <span class="p">)</span>
+</pre></div>
+
+<p>Example:</p>
+
+<div class="highlight highlight-js"><pre><span class="nx">fireNative</span><span class="p">(</span> <span class="nx">jQuery</span><span class="p">(</span><span class="s2">"#elem"</span><span class="p">)[</span><span class="mi">0</span><span class="p">],</span> <span class="s2">"click"</span> <span class="p">);</span>
+</pre></div>
+
+<h3>
+<a name="add-random-number-to-url-to-stop-caching" class="anchor" href="#add-random-number-to-url-to-stop-caching"><span class="octicon octicon-link"></span></a>Add random number to url to stop caching</h3>
+
+<div class="highlight highlight-js"><pre><span class="nx">url</span><span class="p">(</span> <span class="s2">"some/url.php"</span> <span class="p">);</span>
+</pre></div>
+
+<p>Example:</p>
+
+<div class="highlight highlight-js"><pre><span class="nx">url</span><span class="p">(</span><span class="s2">"data/test.html"</span><span class="p">);</span>
+
+<span class="o">=&gt;</span> <span class="s2">"data/test.html?10538358428943"</span>
+
+
+<span class="nx">url</span><span class="p">(</span><span class="s2">"data/test.php?foo=bar"</span><span class="p">);</span>
+
+<span class="o">=&gt;</span> <span class="s2">"data/test.php?foo=bar&amp;10538358345554"</span>
+</pre></div>
+
+<h3>
+<a name="load-tests-in-an-iframe" class="anchor" href="#load-tests-in-an-iframe"><span class="octicon octicon-link"></span></a>Load tests in an iframe</h3>
+
+<p>Loads a given page constructing a url with fileName: <code>"./data/" + fileName + ".html"</code>
+and fires the given callback on jQuery ready (using the jQuery loading from that page)
+and passes the iFrame's jQuery to the callback.</p>
+
+<div class="highlight highlight-js"><pre><span class="nx">testIframe</span><span class="p">(</span> <span class="nx">fileName</span><span class="p">,</span> <span class="nx">testName</span><span class="p">,</span> <span class="nx">callback</span> <span class="p">);</span>
+</pre></div>
+
+<p>Callback arguments:</p>
+
+<div class="highlight highlight-js"><pre><span class="nx">callback</span><span class="p">(</span> <span class="nx">jQueryFromIFrame</span><span class="p">,</span> <span class="nx">iFrameWindow</span><span class="p">,</span> <span class="nx">iFrameDocument</span> <span class="p">);</span>
+</pre></div>
+
+<h3>
+<a name="load-tests-in-an-iframe-windowiframecallback" class="anchor" href="#load-tests-in-an-iframe-windowiframecallback"><span class="octicon octicon-link"></span></a>Load tests in an iframe (window.iframeCallback)</h3>
+
+<p>Loads a given page constructing a url with fileName: <code>"./data/" + fileName + ".html"</code>
+The given callback is fired when window.iframeCallback is called by the page
+The arguments passed to the callback are the same as the
+arguments passed to window.iframeCallback, whatever that may be</p>
+
+<div class="highlight highlight-js"><pre><span class="nx">testIframeWithCallback</span><span class="p">(</span> <span class="nx">testName</span><span class="p">,</span> <span class="nx">fileName</span><span class="p">,</span> <span class="nx">callback</span> <span class="p">);</span>
+</pre></div>
+
+<h2>
+<a name="questions" class="anchor" href="#questions"><span class="octicon octicon-link"></span></a>Questions?</h2>
+
+<p>If you have any questions, please feel free to ask on the
+<a href="http://forum.jquery.com/developing-jquery-core">Developing jQuery Core forum</a> or in #jquery on irc.freenode.net.</p></article>
+  </div>
+
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer">
+    <ul class="site-footer-links right">
+      <li><a href="https://status.github.com/">Status</a></li>
+      <li><a href="http://developer.github.com">API</a></li>
+      <li><a href="http://training.github.com">Training</a></li>
+      <li><a href="http://shop.github.com">Shop</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+
+    </ul>
+
+    <a href="/">
+      <span class="mega-octicon octicon-mark-github"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>&copy; 2013 <span title="0.03508s from github-fe130-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="/site/terms">Terms</a></li>
+        <li><a href="/site/privacy">Privacy</a></li>
+        <li><a href="/security">Security</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div><!-- /.site-footer -->
+</div><!-- /.container -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-fullscreen-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="js-fullscreen-contents" placeholder="" data-suggester="fullscreen_suggester"></textarea>
+          <div class="suggester-container">
+              <div class="suggester fullscreen-suggester js-navigation-container" id="fullscreen_suggester"
+                 data-url="/jquery/jquery/suggestions/commit">
+              </div>
+          </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped leftwards" title="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped leftwards"
+      title="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-remove-close close ajax-error-dismiss"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+  </body>
+</html>
+

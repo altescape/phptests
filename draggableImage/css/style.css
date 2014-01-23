@@ -1,0 +1,41 @@
+.sheet {
+  width: 600px;
+  background: #EEE;
+  height: 660px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  border: 1px solid #D0D0D0;
+}
+.first {
+  background-color: indianred;
+  background-image: url("../img/one.jpg");
+  width: 260px;
+  height: 300px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  overflow: hidden;
+}
+.second {
+  background-color: dodgerblue;
+  background-image: url("../img/two.jpg");
+  width: 260px;
+  height: 300px;
+  position: absolute;
+  top: 340px;
+  left: 20px;
+  overflow: hidden;
+}
+.third {
+  background-color: #d6bc35;
+  background-image: url("../img/three.jpg");
+  width: 280px;
+  height: 620px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  overflow: hidden;
+}
